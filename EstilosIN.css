@@ -10,6 +10,7 @@ h1{
 }
 nav{
 	text-align: center;
+	padding: 4px;
 }
 a{
 	background: darkcyan;
@@ -17,18 +18,36 @@ a{
 	color: beige;
 	margin: 3px;
 	padding: 2px;
-	border: dashed lightcyan;
+	border: dashed mediumaquamarine;
     text-decoration: none;
 }
 a:hover{
 	background: cadetblue;
-	border-radius: 3px;
+	border-radius: 50%;
 	color: beige;
 	margin: 3px;
-	padding: 3px;
+	padding: 5px;
 	border: dashed beige;
 	text-decoration: none;
 }
 body{
 	background: mediumaquamarine;
+}
+article{
+	margin: 5px;
+	background: darkcyan;
+	padding: 100px;
+	border: solid cadetblue;
+}
+div{
+	margin: 5px;
+	background: darkcyan;
+	padding: 100px;
+	border: solid cadetblue;
+}
+p{
+	text-align: center;
+	color: beige;
+	background: rgba(0, 0, 0, 0.25);
+	border-radius: 50%;
 }
