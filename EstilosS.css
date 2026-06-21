@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+}
+
+header{
+  text-align: center;
+  background: beige;
+}
+h1{
+	border: solid lightcyan;
+	color: darkcyan;
+}
+nav{
+	text-align: center;
+	padding: 4px;
+	margin: 10px;
+}
+a{
+	background: #2b3d58;
+	border-radius: 2px ;
+	color: beige;
+	margin: 3px;
+	padding: 3px;
+	border: dashed cadetblue;
+    text-decoration: none;
+}
+.Servicios{
+	background: cadetblue;
+	border-radius: 50%;
+	color: beige;
+	margin: 3px;
+	padding: 3px;
+	border: dashed beige;
+	text-decoration: none;
+}
+
+a:hover{
+	background: cadetblue;
+	border-radius: 50%;
+	color: beige;
+	margin: 3px;
+	padding: 10px;
+	border: dashed beige;
+	text-decoration: none;
+}
+body{
+	background: cadetblue;
