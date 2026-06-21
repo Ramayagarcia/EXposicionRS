@@ -8,8 +8,6 @@ header{
 h1{
 	border: solid lightcyan;
 	color: darkcyan;
-
-
 }
 nav{
 	text-align: center;
@@ -21,7 +19,7 @@ a{
 	border-radius: 2px ;
 	color: beige;
 	margin: 3px;
-	padding: 2px;
+	padding: 3px;
 	border: dashed cadetblue;
     text-decoration: none;
 }
@@ -40,7 +38,7 @@ a:hover{
 	border-radius: 50%;
 	color: beige;
 	margin: 3px;
-	padding: 8px;
+	padding: 10px;
 	border: dashed beige;
 	text-decoration: none;
 }
@@ -52,6 +50,11 @@ body{
 	color: beige;
 	background: rgba(0, 0, 0, 0.25);
 	border-radius: 50%;
+	margin: 3px;
+}
+img{
+	width: 100%;
+	border-radius: 2px;
 }
 h2{
 	margin: 5px;
@@ -114,6 +117,14 @@ main{
 	margin: 5px;
 }
 
+main:hover{
+	display: flex;
+	background: lightcyan;
+	height: 400px;
+	margin: 5px;
+	border: double #2b3d58;
+}
+
 .caja3{
   flex: 1;
 	background: darkcyan;
@@ -122,13 +133,72 @@ main{
 	padding: 100px;
 }
 
+.caja3:hover{
+	flex:1;
+	background: darkcyan;
+	border: solid #2b3d58;
+	padding: 100px;
+	margin: 5px;
+}
+
 .caja4{
 	flex: 1;
 	background: darkcyan;
 	border: solid beige;
 	margin: 5px;
 	padding: 100px;
-
 }
 
+.caja4:hover{
+	flex:1;
+	background: darkcyan;
+	border: solid #2b3d58;
+	padding: 100px;
+	margin: 5px;
+}
 
+aside{
+	display: flex;
+	background: #2b3d58;
+	height: 400px;
+	margin: 5px;
+}
+aside:hover{
+	display: flex;
+	background: lightcyan;
+	height: 400px;
+	margin: 5px;
+	border: double #2b3d58;
+}
+
+.caja5{
+	flex:1;
+	background: darkcyan;
+	border: solid beige;
+	padding: 100px;
+	margin: 5px;
+}
+
+.caja5:hover{
+	flex:1;
+	background: darkcyan;
+	border: solid #2b3d58;
+	padding: 100px;
+	margin: 5px;
+}
+
+.caja6{
+	flex:1;
+	background: darkcyan;
+	border: solid beige;
+	padding: 100px;
+	margin: 5px;
+}
+
+.caja6:hover{
+	flex:1;
+	background: darkcyan;
+	border: solid #2b3d58;
+	padding: 100px;
+	margin: 5px;
+}
