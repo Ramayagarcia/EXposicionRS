@@ -1,3 +1,6 @@
+*{
+	margin: 0px;
+}
 header{
   text-align: center;
   background: beige;
@@ -11,43 +14,121 @@ h1{
 nav{
 	text-align: center;
 	padding: 4px;
+	margin: 10px;
 }
 a{
-	background: darkcyan;
+	background: #2b3d58;
 	border-radius: 2px ;
 	color: beige;
 	margin: 3px;
 	padding: 2px;
-	border: dashed mediumaquamarine;
+	border: dashed cadetblue;
     text-decoration: none;
 }
+.inicio{
+	background: cadetblue;
+	border-radius: 50%;
+	color: beige;
+	margin: 3px;
+	padding: 3px;
+	border: dashed beige;
+	text-decoration: none;
+}
+
 a:hover{
 	background: cadetblue;
 	border-radius: 50%;
 	color: beige;
 	margin: 3px;
-	padding: 5px;
+	padding: 8px;
 	border: dashed beige;
 	text-decoration: none;
 }
 body{
-	background: mediumaquamarine;
+	background: cadetblue;
 }
-article{
-	margin: 5px;
-	background: darkcyan;
-	padding: 100px;
-	border: solid cadetblue;
-}
-div{
-	margin: 5px;
-	background: darkcyan;
-	padding: 100px;
-	border: solid cadetblue;
-}
-p{
+.slogan {
 	text-align: center;
 	color: beige;
 	background: rgba(0, 0, 0, 0.25);
 	border-radius: 50%;
 }
+h2{
+	margin: 5px;
+	color: #2b3d58;
+	text-align: center;
+	background: lightcyan;
+	border-radius: 5px;
+	padding:
+}
+article{
+	display: flex;
+	background: #2b3d58;
+	height: 400px;
+	margin: 5px;
+}
+article:hover{
+	display: flex;
+	background: lightcyan;
+	height: 400px;
+	margin: 5px;
+	border: double #2b3d58;
+
+}
+.caja1{
+	flex: 1;
+	background: darkcyan;
+	border: solid beige;
+	margin: 5px;
+	padding: 100px;
+}
+.caja1:hover{
+	flex: 1;
+	background: darkcyan;
+	border: solid #2b3d58;
+	margin: 5px;
+	padding: 100px;
+
+}
+.caja2{
+	flex:1;
+	background: darkcyan;
+	border: solid beige;
+	padding: 100px;
+	margin: 5px;
+}
+
+.caja2:hover{
+	flex:1;
+	background: darkcyan;
+	border: solid #2b3d58;
+	padding: 100px;
+	margin: 5px;
+
+}
+
+main{
+	display: flex;
+	background: #2b3d58;
+	height: 400px;
+	margin: 5px;
+}
+
+.caja3{
+  flex: 1;
+	background: darkcyan;
+	border: solid beige;
+	margin: 5px;
+	padding: 100px;
+}
+
+.caja4{
+	flex: 1;
+	background: darkcyan;
+	border: solid beige;
+	margin: 5px;
+	padding: 100px;
+
+}
+
+
