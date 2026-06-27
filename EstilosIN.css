@@ -51,10 +51,7 @@ body{
 	background: rgba(0, 0, 0, 0.25);
 	border-radius: 50%;
 	margin: 3px;
-}
-img{
-	width: 100%;
-	border-radius: 2px;
+	padding: 2PX;
 }
 h2{
 	margin: 5px;
@@ -79,35 +76,70 @@ article:hover{
 
 }
 .caja1{
-	flex: 1;
+	display:flex;
 	background: darkcyan;
 	border: solid beige;
-	margin: 5px;
-	padding: 100px;
+	margin: 20px;
 }
 .caja1:hover{
-	flex: 1;
+	display:flex;
 	background: darkcyan;
 	border: solid #2b3d58;
 	margin: 5px;
-	padding: 100px;
+	width: 70%;
+}
 
+.caja1 img{
+	border-radius:3px;
+	height: 100%;
+	width: 50%;
+	margin: 2px;
+}
+
+.caja1 p{
+	text-align: center;
+	color: beige;
+	margin-top: 100PX;
+	margin-bottom: 100px;
+	padding: 5px;
+	border: double beige;
+}
+.caja1 mark{
+	background-color: beige;
 }
 .caja2{
-	flex:1;
+	display:flex;
 	background: darkcyan;
 	border: solid beige;
-	padding: 100px;
-	margin: 5px;
+	margin: 20px;
 }
 
 .caja2:hover{
-	flex:1;
+	display:flex;
 	background: darkcyan;
 	border: solid #2b3d58;
-	padding: 100px;
 	margin: 5px;
+	width: 70%;
+}
 
+.caja2 img{
+	border-radius: 3px;
+	height: 99%;
+	width: 60%;
+	margin: 2px;
+}
+
+.caja2 p{
+	text-align: center;
+	color: beige;
+	margin-top: 130px;
+	margin-bottom: 150px;
+	padding: 5px;
+	border: double beige;
+}
+
+.caja2 mark{
+	background-color: beige;
 }
 
 main{
@@ -126,79 +158,144 @@ main:hover{
 }
 
 .caja3{
-  flex: 1;
+  display:flex;
 	background: darkcyan;
 	border: solid beige;
-	margin: 5px;
-	padding: 100px;
+	margin: 20px;
 }
 
 .caja3:hover{
-	flex:1;
+	display:flex;
 	background: darkcyan;
 	border: solid #2b3d58;
-	padding: 100px;
 	margin: 5px;
+	width: 45%;
 }
 
+.caja3 img{
+	height: 100%;
+	width: 50%; 
+	border-radius:3px;
+	margin: 3px;
+}
+
+.caja3 p{
+	text-align: center;
+	color: beige;
+	margin-top: 130px;
+	margin-bottom: 140px;
+	padding: 5px;
+	border: double beige;
+}
+
+.caja3 mark{
+	background-color: beige;
+
+}
 .caja4{
-	flex: 1;
+	display:flex;
 	background: darkcyan;
 	border: solid beige;
-	margin: 5px;
-	padding: 100px;
+	margin: 20px;
 }
 
 .caja4:hover{
-	flex:1;
+	display:flex;
 	background: darkcyan;
 	border: solid #2b3d58;
-	padding: 100px;
 	margin: 5px;
+	width: 65%;
+}
+
+.caja4 img{ 
+	width: 60%;
+	height: 100%; 
+	border-radius:3px ;
+	margin: 3px;
+}
+.caja4 p{
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 120px;
+	padding: 5px;
+	border: double beige;
+}
+.caja4 mark{
+	background-color: beige;
 }
 
 aside{
 	display: flex;
 	background: #2b3d58;
-	height: 400px;
 	margin: 5px;
+	padding: 2px;
 }
 aside:hover{
 	display: flex;
 	background: lightcyan;
-	height: 400px;
 	margin: 5px;
 	border: double #2b3d58;
+	padding: 2px;
 }
 
 .caja5{
-	flex:1;
 	background: darkcyan;
-	border: solid beige;
-	padding: 100px;
+	border: double beige;
 	margin: 5px;
+	width: 50%;
 }
 
 .caja5:hover{
-	flex:1;
+  width: 50%;
+  margin: 5px;	
 	background: darkcyan;
 	border: solid #2b3d58;
-	padding: 100px;
-	margin: 5px;
+	border-radius:3px;
+}
+
+.caja5 img{
+	border-radius: 50%;
+	height: 50%;
+	width: 100%;
 }
 
 .caja6{
-	flex:1;
 	background: darkcyan;
-	border: solid beige;
-	padding: 100px;
 	margin: 5px;
+	border: solid beige;
+	width: 50%;
+	height: 97%;
 }
 
 .caja6:hover{
-	flex:1;
+	margin: 5px;
 	background: darkcyan;
 	border: solid #2b3d58;
-	padding: 100px;
-	margin: 5px;
+	width: 50%;
+	height: 97%;
 }
+
+.caja6 img{
+	height: 50%;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.caja7{
+	display: flex;
+	background: darkcyan;
+	margin: 5px;
+	border: solid beige;
+	width: 50%;
+	height: 97%;
+}
+
+.caja7:hover{
+	display: flex;
+	background: darkcyan;
+	margin: 5px;
+	border: solid #2b3d58;
+	width: 50%;
+	height: 97%;
+}
+
