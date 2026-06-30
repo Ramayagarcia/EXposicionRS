@@ -65,43 +65,44 @@ section{
 	flex: 1;
 	background: #2b3d58;
 	border-radius: 10px;
-	height: 100%;
+	height: 99%;
 	margin: 2px;
-}
-.caja1:hover{
-	text-align: center;
-	flex: 2;
-	background: #2b3d58;
-	border-radius: 10px;
-	height: 100%;
-	margin: 2px;
+	border: double burlywood;
 }
 .caja1 img{
 	border: solid beige;
 	margin: 10px;
 	height: 50%;
-	width: 50%;
+	width: 60%;
 	border-radius: 50%;
 }
 .caja1-1{
-	text-align: left;
-	padding: 10px;
+	text-align:left;
+	padding: 0px 15%;
 }
-.caja1-1 img{
-  height:20px;
-  width: 20px;
-  border-radius: 50%;
+.RS{
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 5px 0;
+}
+ .RS img{
+ 	width: 20px;
+ 	height: 20px;
+ 	border-radius: 50%;
+ }
+ .RS p{
+ 	margin: 0;
+ 	color: burlywood;
+ }
+ .RS p:hover{
+ 	background-color: beige;
+ 	color: darkcyan;
+ 	padding: 2px;
+ 	border-radius: 2px;
  }
 .caja2{
 	filter: contrast(120%);
-	text-align: center;
-	flex: 1;
-	background: #2b3d58;
-	border-radius: 10px;
-	height: 100%;
-	margin: 2px;
-}
-.caja2:hover{
 	text-align: center;
 	flex: 2;
 	background: #2b3d58;
@@ -109,52 +110,98 @@ section{
 	height: 100%;
 	margin: 2px;
 }
-.caja2 img{
-	border: solid beige;
-	margin: 10px;
-	height: 50%;
-	width: 50%;
+h3{
+	text-align: center;
+	margin: 5px;
+	padding: 2px;
+	background: lightcyan;
+	border-radius: 10px;
+}
+.formulario{
+	margin: 5px;
+	height: 86.25%;
+	border-radius: 10px;
+	background-color: darkcyan;
+	border: double lightcyan;
+}
+.formulario img{
 	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	border: solid beige;
 }
-.caja2-2{
-	text-align: left;
-	padding: 10px;
+input{
+	color: beige;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 5px;
+	height: 25px;
+	width: 80%;
+	background-color: burlywood;
+	border: solid 2px beige;
 }
-.caja2-2 img{
-	height:20px;
-  width: 20px;
-  border-radius: 50%;
+input:hover{
+	background-color: beige;
+	color: black;
+	border: solid burlywood;
 }
+.M{
+	height: 70px;
+}
+.B{
+	margin: 10px;
+	height: 35px;
+	background-color: burlywood;
+	border: solid 2px beige;
+	border-radius: 5px;
+}
+.B:hover{
+	margin: 10px;
+	height: 35px;
+	background-color: beige;
+	border: solid 2px burlywood;
+
+}
+
 .caja3{
 	filter: contrast(120%);
 	text-align: center;
 	flex: 1;
 	background: #2b3d58;
 	border-radius: 10px;
-	height: 100%;
+	height: 99%;
 	margin: 2px;
-}
-.caja3:hover{
-	text-align: center;
-	flex: 2;
-	background: #2b3d58;
-	border-radius: 10px;
-	height: 100%;
-	margin: 2px;
+	border: double burlywood;
 }
 .caja3 img{
 	margin: 10px;
 	height: 50%;
-	width: 50%;
+	width: 60%;
 	border-radius: 50%;
 	border: solid beige;
 }
 .caja3-3{
 	text-align: left;
-	padding: 10px;
+	padding: 0px 15%;
 }
-.caja3-3 img{
-	height:20px;
-  width: 20px;
-  border-radius: 50%;
+.RS2{
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 5px 0;
 }
+ .RS2 img{
+ 	width: 20px;
+ 	height: 20px;
+ 	border-radius: 50%;
+ }
+ .RS2 p{
+ 	margin: 0;
+ 	color: burlywood;
+ }
+ .RS2 p:hover{
+ 	background-color: beige;
+ 	color: darkcyan;
+ 	padding: 2px;
+ 	border-radius: 2px;
+ }
